@@ -11,7 +11,8 @@
 
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" 
+      rel="stylesheet">
 
 
       <!-- SimplyCountDown -->
@@ -22,20 +23,228 @@
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
-   
 
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"> 
         <main>
             <h4>Kepada Bapak/ibu/Saudara/i,</h4>
             <h1>Alvina & Ilham</h1>
-            <p>akan melangsungkan resepsi pernikahan dalam:</p>
+            <p>Akan melangsungkan pernikahan Dalam:</p>
+            <p>25 Januari 2025</p>
             <div class="Simply-CountDown"></div>
             <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
         </main>
     </section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Alvina & Ilham</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Alvina & Ilham</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#Home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#Gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="Home" class="Home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan Pada 25 januari 2025 di Ketanggungan, jawa Tengah</h3>
+            <p>Oleh karena itu, Dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu,Saudara/i
+               untuk hadir pada acara pernikahan kami.</p>
+          </div>
+        </div>
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end"></div>
+              <h2>Ilham Ilahiya</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Inventore quasi perspiciatis minima eaque eum incidunt non quas doloribus. 
+                Molestias accusamus unde eveniet eaque vero doloremque enim laudantium reiciendis esse aut?</p>
+                <p>Putra dari Bpk. Suyono <br> Dan <br> Ibu Sri Lestari</p>
+              </div>
+              <div class="col-4">
+                <img src="img/mas.jpg" alt="Ilham Ilahiya" class="img-responsive rounded-circle">
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-4">
+                   <img src="img/mba.jpg" alt="Alvina Azharani" class="img-responsive rounded-circle">
+                 </div>
+                <div class="col-8"></div>
+                <h2>Alvina Azharani</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Inventore quasi perspiciatis minima eaque eum incidunt non quas doloribus. 
+                  Molestias accusamus unde eveniet eaque vero doloremque enim laudantium reiciendis esse aut?</p>
+                  <p>Putri dari Bpk. Amir Udin <br> Dan <br> Ibu Anies Sofiyati</p>
+              </div>
+            </div>
+      </div>
+    </section>
+
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>informasi acara</h2>
+            <p class="alamat">Alamat: Gedung pertemuan goodwill <br>, Jl. Ketanggungan - Slawi, Dukuhturi Dua, Dukuhturi, 
+              Kec. Ketanggungan, Kabupaten Brebes</p>
+              <a href="https://maps.app.goo.gl/ADuftSZBWNSWeNwo7" target="_blank" class="btn btn-light btn-sm my-3">klik untuk membuka peta</a>
+              <p class="description">Diharapkan untuk tidak salah alamat dan tanggal, manakala 
+                tiba di tujuan namun tidak ada tanda-tanda sedang berlangsung nya acara pernikahan,
+              bisa jadi anda salah jadwal, atau salah tempat, </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Akad Nikah </div>
+                <div class="card-body">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6"></div>
+                    <i class="bi bi-clock"></i>
+                      <span>08.00 - 10.00</span>
+                  </div>
+                    <div class="col-md-6"></div>
+                    <i class="bi bi-clock"></i>
+                      <span>Sabtu, 25 januari 2025</span>
+                  </div>
+                </div>
+              <div class="card-footer">
+              </div>
+            </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi </div>
+                <div class="card-body">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6"></div>
+                    <i class="bi bi-clock"></i>
+                      <span>11.00 - Seselai</span>
+                  </div>
+                    <div class="col-md-6"></div>
+                    <i class="bi bi-clock"></i>
+                      <span>Sabtu, 25 januari 2025</span>
+                  </div>
+                </div>
+              <div class="card-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-18 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran.</p>
+          </div>
+        </div>
+
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+        method="POST" 
+        action="https://script.google.com/macros/s/AKfycbzSHCNDRtF6XAdjs5HQDp2ysK_5M8W7uK7Zd0C8xebbT7U75rjLxb_cEZi5ZhuFEbtt/exec"
+        id="my-form">
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">jumlah</label>
+              <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5"
+              length="1" value="1">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Konfirmasi</label>
+             <select name="status" id="status" class="form-select">
+            <option selected>Pilih salah satu</option>
+            <option value="Hadir">Hadir</option>
+            <option value="Tidak Hadir">Tidak hadir</option>
+             </select>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 35px">
+            <button class="btn btn-primary">Kirim</button>
+          </div>
+          </div>
+        </form>
+
+
+      </div>
+
+    </section>
+
+    <section id="Gifts"  class="Gifts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-18 text-center">
+            <span>Ungkapan Tanda kasih</span>
+            <h2>Kirim Hadiah</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dicta, sequi incidunt at cupiditate sunt.</p>
+          </div>
+        </div>
+
+
+        <div class="row justify-content-center text-center">
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class=" fw-bold">MANDIRI</div>
+                1080021394151 - ALVINA AZHARANI AMAN
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2025 Alvina & Ilham Wedding. All Rights Reserved.</small>
+            <small class="block">&copy; Design By <a href="Https://instagram.com/ALWI_AZMAN_AB">@alwi_azman_ab</a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+     crossorigin="anonymous"></script>
 
     <script>
       simplyCountDown ('.Simply-CountDown', {
@@ -51,6 +260,25 @@
             },
     });
      
+    </script>
+
+    <script>
+      window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("Konfirmasi Kehadiran berhasil Terkirim!");
+    })
+  });
+});
+
     </script>
   </body>
 </html>

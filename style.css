@@ -7,7 +7,7 @@
 body{
     font-size: 1.2rem;
     font-family: 'work sans', sans-serif;
-    min-height: 2000px;
+    min-height: 4000px;
 }
 
 .hero::before{
@@ -17,7 +17,9 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(img/gambar.jpg);
+    background-image: url(img/Backgound.jpg);
+    background-position: center;
+    background-size: cover;
     z-index: -1;
     filter: grayscale();
 }
@@ -57,6 +59,165 @@ body{
     color: white;
 }
 
+.mynavbar{
+    background-color: rgba(225, 225, 225, 0.5) !important
+
+}
+
+.mynavbar .navbar-brand, 
+.mynavbar .offcanvas-title {
+    font-family: 'sacramento' , cursive;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.mynavbar .nav-link {
+    text-transform: uppercase;
+}
+
+.Home {
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+}
+
+.Home h2{
+    color: var(--pink);
+    font-family: 'sacramento';
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.Home h3 {
+    color: #444;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.Home p {
+    font-size: 1.1rem;
+    color:#666
+}
+
+.Home .couple {
+    margin-top: 100px;
+}
+
+.Home .couple h2 {
+    font-family: 'sacramento';
+    font-size: 2.4rem;
+    color: var(--pink)
+}
+
+.Home .couple img {
+    width: 100%;
+}
+
+.info {
+    background-color: var(--bg);
+    color: white;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+
+.info h2 {
+    color: var(--pink);
+    font-family: 'sacramento';
+    font-size:5rem;
+    font-weight: bold;
+}
+
+.info .alamat {
+    font-size:1.1rem;
+}
+
+.info .description {
+    font-size:1.1rem;
+    font-weight: 300;
+}
+
+.info .card{
+    background-color: rgba(225, 225, 225, 0.2) !important;
+    color: white !important;
+    border: 1px solid #999; 
+}
+
+.info .card-header {
+    border-bottom: 1px solid #999; 
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.info .card-body {
+    font-size: 1rem;
+}
+
+.rsvp h2,
+.Gifts h2 {
+    color: var(--pink);
+    font-family:'sacramento' ;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.rsvp,
+.Gifts {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.rsvp p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: white
+}
+
+.rsvp {
+    background-color: var(--bg);
+}
+
+.rsvp form label{
+    color: white
+}
+
+.rsvp button{
+    background-color: var(--pink);
+    color: white;
+    border: 1px solid var(--pink);
+}
+
+.rsvp button:hover{
+    background-color: white;
+    color: var(--pink);
+    border: 1px solid white;
+}
+
+.Gifts span {
+    text-transform: uppercase;
+    color: #666;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    display:block;
+    margin-bottom: 1rem;
+}
+
+.Gifts p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+ footer {
+    padding: 3rem;
+    background-color: var(--pink);
+    color: white;
+ }
+
+  footer a{
+    color: var(--bg);
+    font-weight: Bold;
+    text-decoration: none;
+  }
+
 /* Media Query */
 /* Laptop */
 @media (max-width: 992px) {
@@ -69,6 +230,13 @@ body{
     html {
         font-size: 65%;
     }
+
+    
+.mynavbar .nav-link {
+    font-size: 2rem;
+    text-align:center;
+}
+
 }
 
 /* mobail phone */
